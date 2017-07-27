@@ -26,8 +26,8 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'url' => '#',
                 'image' => NULL,
                 'description' => NULL,
-                'position' => 100,
-                'permission' => NULL,
+                'position' => 0,
+                'permission' => '',
             ),
             1 => 
             array (
@@ -38,8 +38,8 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'url' => '/admin',
                 'image' => NULL,
                 'description' => NULL,
-                'position' => 101,
-                'permission' => NULL,
+                'position' => 1,
+                'permission' => '',
             ),
             2 => 
             array (
@@ -50,8 +50,8 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'url' => '/admin/menus',
                 'image' => NULL,
                 'description' => NULL,
-                'position' => 102,
-                'permission' => NULL,
+                'position' => 5,
+                'permission' => '',
             ),
             3 => 
             array (
@@ -62,8 +62,8 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'url' => '/admin/pages',
                 'image' => NULL,
                 'description' => NULL,
-                'position' => 103,
-                'permission' => NULL,
+                'position' => 6,
+                'permission' => '',
             ),
             4 => 
             array (
@@ -74,8 +74,8 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'url' => '/admin/languages',
                 'image' => NULL,
                 'description' => NULL,
-                'position' => 104,
-                'permission' => NULL,
+                'position' => 7,
+                'permission' => '',
             ),
             5 => 
             array (
@@ -86,8 +86,8 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'url' => '/admin/users',
                 'image' => NULL,
                 'description' => NULL,
-                'position' => 105,
-                'permission' => NULL,
+                'position' => 8,
+                'permission' => '',
             ),
             6 => 
             array (
@@ -98,8 +98,8 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'url' => '/admin/logout',
                 'image' => NULL,
                 'description' => NULL,
-                'position' => 106,
-                'permission' => NULL,
+                'position' => 9,
+                'permission' => '',
             ),
             7 => 
             array (
@@ -110,7 +110,7 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'url' => '#',
                 'image' => NULL,
                 'description' => NULL,
-                'position' => 200,
+                'position' => 10,
                 'permission' => 'isDeveloper',
             ),
             8 => 
@@ -122,8 +122,8 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'url' => '/admin/api',
                 'image' => NULL,
                 'description' => NULL,
-                'position' => 201,
-                'permission' => NULL,
+                'position' => 11,
+                'permission' => '',
             ),
             9 => 
             array (
@@ -134,8 +134,8 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'url' => '/admin/groups',
                 'image' => NULL,
                 'description' => NULL,
-                'position' => 202,
-                'permission' => NULL,
+                'position' => 12,
+                'permission' => '',
             ),
             10 => 
             array (
@@ -146,8 +146,8 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'url' => '/admin/permissions',
                 'image' => NULL,
                 'description' => NULL,
-                'position' => 203,
-                'permission' => NULL,
+                'position' => 13,
+                'permission' => '',
             ),
             11 => 
             array (
@@ -158,8 +158,8 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'url' => '/admin/templates',
                 'image' => NULL,
                 'description' => NULL,
-                'position' => 204,
-                'permission' => NULL,
+                'position' => 14,
+                'permission' => '',
             ),
             12 => 
             array (
@@ -170,8 +170,8 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'url' => '/admin/models/create',
                 'image' => NULL,
                 'description' => NULL,
-                'position' => 205,
-                'permission' => NULL,
+                'position' => 15,
+                'permission' => '',
             ),
             13 => 
             array (
@@ -182,8 +182,44 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'url' => '/admin/settings',
                 'image' => NULL,
                 'description' => NULL,
-                'position' => 206,
-                'permission' => NULL,
+                'position' => 16,
+                'permission' => '',
+            ),
+            14 => 
+            array (
+                'menu_id' => 1,
+                'page_id' => NULL,
+                'parent_item_id' => 1,
+                'name' => 'Blog Posts',
+                'url' => '/admin/blogs',
+                'image' => NULL,
+                'description' => NULL,
+                'position' => 2,
+                'permission' => '',
+            ),
+            15 => 
+            array (
+                'menu_id' => 1,
+                'page_id' => NULL,
+                'parent_item_id' => 1,
+                'name' => 'Portfolio Items',
+                'url' => '/admin/portfolio-items',
+                'image' => NULL,
+                'description' => NULL,
+                'position' => 3,
+                'permission' => '',
+            ),
+            16 => 
+            array (
+                'menu_id' => 1,
+                'page_id' => NULL,
+                'parent_item_id' => 1,
+                'name' => 'Portfolio Categories',
+                'url' => '/admin/portfolio-categories',
+                'image' => NULL,
+                'description' => NULL,
+                'position' => 4,
+                'permission' => '',
             ),
         ));
         
