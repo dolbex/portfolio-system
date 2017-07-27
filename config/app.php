@@ -168,6 +168,7 @@ return [
          */
         Laravel\Tinker\TinkerServiceProvider::class,
 
+
         /*
          * Application Service Providers...
          */
@@ -176,6 +177,11 @@ return [
         App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
+        /*
+         * Devise Service Provider...
+         */
+        Devise\DeviseServiceProvider::class,
 
     ],
 
@@ -225,6 +231,16 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        /**
+         * Devise Aliases
+         */
+        'Sort'            => Devise\Support\Sortable\SortableFacade::class,
+        'DeviseUser'      => Devise\Users\DeviseUser::class,
+        'RuleManager'     => Devise\Users\Permissions\RuleManagerFacade::class,
+        'Form'            => Collective\Html\FormFacade::class,
+        'HTML'            => Collective\Html\HtmlFacade::class,
+        'Input'           => Illuminate\Support\Facades\Input::class,
 
     ],
 

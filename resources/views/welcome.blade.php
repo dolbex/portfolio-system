@@ -9,62 +9,7 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <link href="{{ mix('/css/app.css') }}" rel="stylesheet" type="text/css">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -80,48 +25,21 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-
-                <div id="app" class="examples">
-                  <example></example>
-                </div>
-
-                {{--
-                <div id="app">
-                  <ive-got-a-need></ive-got-a-need>
-                  <div class="examples">
-                    <example-two></example-two>
-                    <example-two></example-two>
-                    <example-two></example-two>
-                  </div>
-                </div>
-                --}}
-
-                {{--
-                <div id="app">
-                  <a-need-for-speed></a-need-for-speed>
-                  <div class="examples">
-                    <example-three></example-three>
-                    <example-three></example-three>
-                    <example-three></example-three>
-                  </div>
-                </div>
-              --}}
 
             </div>
         </div>
 
         <!-- JS -->
         <script src="{{ mix('/js/app.js') }}"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+        <script>
+         WebFont.load({
+            google: {
+              families: ['Playfair+Display:400,400i,700,700i,900i', 'Raleway:400,400i,700,700i']
+            }
+          });
+        </script>
     </body>
 </html>
