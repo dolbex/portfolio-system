@@ -65,7 +65,10 @@ class PortfolioItemsManager
       $portfolioItem->name = $input['name'];
       $portfolioItem->description = $input['description'];
       $portfolioItem->creation_date = date('Y-m-d H:i:s', strtotime($input['creation_date']));
-      $portfolioItem->more_information = $input['more_information'] == 'on' ? 1 : 0;
+      $portfolioItem->more_information = isset($input['more_information']) ? 1 : 0;
+      $portfolioItem->on_right = isset($input['on_right']) ? 1 : 0;
+      $portfolioItem->on_top = isset($input['on_top']) ? 1 : 0;
+      $portfolioItem->dark = isset($input['dark']) ? 1 : 0;
       $portfolioItem->display_order = $input['display_order'];
 
 
@@ -110,7 +113,10 @@ class PortfolioItemsManager
       $portfolioItem->name = $input['name'];
       $portfolioItem->description = $input['description'];
       $portfolioItem->creation_date = $input['creation_date'];
-      $portfolioItem->more_information = $input['more_information'] == 'on' ? 1 : 0;
+      $portfolioItem->more_information = isset($input['more_information']) ? 1 : 0;
+      $portfolioItem->on_right = isset($input['on_right']) ? 1 : 0;
+      $portfolioItem->on_top = isset($input['on_top']) ? 1 : 0;
+      $portfolioItem->dark = isset($input['dark']) ? 1 : 0;
       $portfolioItem->display_order = $input['display_order'];
 
 
