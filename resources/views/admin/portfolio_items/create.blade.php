@@ -8,7 +8,7 @@
 
 @section('subnavigation')
     <div id="dvs-admin-actions">
-        <?= link_to(URL::route('admin-portfolioitems-index'), 'All PortfolioItems', array('class' => 'dvs-button dvs-button-secondary')) ?>
+        <?= link_to(URL::route('admin-portfolioitems-index'), 'All Portfolio Items', array('class' => 'dvs-button dvs-button-secondary')) ?>
     </div>
 @stop
 

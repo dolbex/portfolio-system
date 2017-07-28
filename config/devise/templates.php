@@ -31,7 +31,7 @@
 			'vars' => array(
 				'portfolioCategory' => array(
 					'App\PortfolioCategories\PortfolioCategoriesRepository.getPortfolioCategory' => array(
-						'{params.portfolio_categoryid}',
+						'{params.portfolioCategoryid}',
 					),
 				),
 			),
@@ -56,7 +56,7 @@
 			'vars' => array(
 				'portfolioItem' => array(
 					'App\PortfolioItems\PortfolioItemsRepository.getPortfolioItem' => array(
-						'{params.portfolio_itemid}',
+						'{params.portfolioItemid}',
 					),
 				),
         'portfolioCategories' => 'App\PortfolioCategories\PortfolioCategoriesRepository.getAllPortfolioCategoriesList',

@@ -16,11 +16,11 @@ class PortfolioCategoriesRepository
 
 	function getAllPortfolioCategories()
 	{
-		return $this->PortfolioCategory->paginate();
+		return $this->PortfolioCategory->orderBy('display_order')->get();
 	}
 
   function getAllPortfolioCategoriesList()
 	{
-		return $this->PortfolioCategory->pluck('name', 'id');
+		return $this->PortfolioCategory->orderBy('display_order')->pluck('name', 'id');
 	}
 }

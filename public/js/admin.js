@@ -6,7 +6,7 @@ devise.define(["jquery", "ckeditorJquery", "datetimepicker", 'jquery-ui'], funct
   });
 
   $('.datetime').datetimepicker({
-    format: 'Y-m-d',
+    format: 'Y-m-d H:i:s',
     timepicker: true,
   });
 

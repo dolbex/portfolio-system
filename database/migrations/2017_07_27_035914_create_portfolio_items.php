@@ -19,6 +19,7 @@ class CreatePortfolioItems extends Migration {
                 $table->text('description');
                 $table->date('creation_date');
                 $table->boolean('more_information');
+                $table->integer('display_order');
                 $table->timestamp('deleted_at')->nullable();
                 $table->timestamp('created_at')->nullable();
                 $table->timestamp('updated_at')->nullable();

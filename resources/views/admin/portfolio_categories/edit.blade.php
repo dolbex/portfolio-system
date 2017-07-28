@@ -14,7 +14,7 @@
 
 @section('main')
     <div class="dvs-admin-form-horizontal">
-        <?= Form::model($portfolioCategory, array('method' => 'PUT', 'route' => array('admin-portfoliocategories-update', $portfoliocategory->id))) ?>
+        <?= Form::model($portfolioCategory, array('method' => 'PUT', 'route' => array('admin-portfoliocategories-update', $portfolioCategory->id))) ?>
 
             @include('admin.portfolio_categories._form-fields')
 
