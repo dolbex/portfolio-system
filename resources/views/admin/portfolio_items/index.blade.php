@@ -2,7 +2,7 @@
 
 @section('title')
     <div id="dvs-admin-title">
-        <h1><span class=""></span>PortfolioItems</h1>
+        <h1><span class=""></span>Portfolio Items</h1>
     </div>
 @stop
 
@@ -16,7 +16,7 @@
 
    @if (!$portfolioItems->count())
 
-        <h3>No PortfolioItem Entries Found.</h3>
+        <h3>No Portfolio Item Entries Found.</h3>
 
     @else
 

@@ -2,13 +2,13 @@
 
 @section('title')
     <div id="dvs-admin-title">
-        <h1><span class=""></span>PortfolioCategories</h1>
+        <h1><span class=""></span>Portfolio Categories</h1>
     </div>
 @stop
 
 @section('subnavigation')
     <div id="dvs-admin-actions">
-        <?= link_to(URL::route('admin-portfoliocategories-create'), 'Create New PortfolioCategory', array('class' => 'dvs-button dvs-button-secondary')) ?>
+        <?= link_to(URL::route('admin-portfoliocategories-create'), 'Create New Portfolio Category', array('class' => 'dvs-button dvs-button-secondary')) ?>
     </div>
 @stop
 
@@ -16,7 +16,7 @@
 
    @if (!$portfolioCategories->count())
 
-        <h3>No PortfolioCategory Entries Found.</h3>
+        <h3>No Portfolio Category Entries Found.</h3>
 
     @else
 

@@ -46,6 +46,9 @@
 		'admin.portfolio_items.create' => array(
 			'human_name' => 'Admin Create PortfolioItems',
 			'extends' => 'devise::admin.layouts.master',
+      'vars' => array(
+        'portfolioCategories' => 'App\PortfolioCategories\PortfolioCategoriesRepository.getAllPortfolioCategoriesList',
+      ),
 		),
 		'admin.portfolio_items.edit' => array(
 			'human_name' => 'Admin Edit PortfolioItems',
@@ -56,6 +59,7 @@
 						'{params.portfolio_itemid}',
 					),
 				),
+        'portfolioCategories' => 'App\PortfolioCategories\PortfolioCategoriesRepository.getAllPortfolioCategoriesList',
 			),
 		),
 		'admin.portfolio_items.index' => array(

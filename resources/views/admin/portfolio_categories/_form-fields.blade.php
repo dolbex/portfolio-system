@@ -1,20 +1,16 @@
     <div class="dvs-form-group">
         <?= Form::label('Name') ?>
-        <?= Form::text('name', 'null', array (
-)) ?>
+        <?= Form::text('name', null, []) ?>
     </div>
     <div class="dvs-form-group">
         <?= Form::label('Short Description') ?>
-        <?= Form::textarea('short_description', 'null', array (
-)) ?>
+        <?= Form::textarea('short_description', null, ['class' => 'wysiwyg']) ?>
     </div>
     <div class="dvs-form-group">
         <?= Form::label('Long Description') ?>
-        <?= Form::textarea('long_description', 'null', array (
-)) ?>
+        <?= Form::textarea('long_description', null, ['class' => 'wysiwyg']) ?>
     </div>
     <div class="dvs-form-group">
-        <?= Form::label('Display Order') ?>
-        <?= Form::text('display_order', 'null', array (
-)) ?>
+        <?= Form::label('Display Order (Number only)') ?>
+        <?= Form::text('display_order', null, []) ?>
     </div>
