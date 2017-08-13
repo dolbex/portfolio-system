@@ -10,7 +10,7 @@ const app = new Vue({
   el: '#app',
   store: store,
   mounted: function () {
-    objectFitImages('img', {watchMQ: true})
+    // objectFitImages('img', {watchMQ: true})
     this.setParallaxWatchers()
   },
   methods: {

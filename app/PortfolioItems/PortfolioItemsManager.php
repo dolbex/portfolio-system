@@ -125,8 +125,6 @@ class PortfolioItemsManager
       $item = new PortfolioItem();
     }
 
-    // dd($data['media']);
-
     $item->portfolio_category_id = $data['portfolio_category_id'];
     $item->name = $data['name'];
     $item->description = $data['description'];

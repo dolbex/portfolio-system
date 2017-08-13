@@ -1,8 +1,7 @@
 
-<div class="@if($item->on_right) right @else left @endif @if($item->on_top) on-top @endif @if($item->dark) dark @endif">
-<div class="category-introduction">
+<div class="category-item @if($item->on_right) right @else left @endif @if($item->on_top) on-top @endif @if($item->dark) dark @endif">
   <div class="content">
-    <h2>{{ $category->name }}</h2>
+    <h2>{{ $item->name }}</h2>
 
     <div class="fancy-divider dark">
       <i class="icon-aperature"></i>
