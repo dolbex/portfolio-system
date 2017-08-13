@@ -2,13 +2,13 @@
 
 @section('title')
     <div id="dvs-admin-title">
-        <h1><span class=""></span> New PortfolioItem</h1>
+        <h1><span class=""></span> New Portfolio Item</h1>
     </div>
 @stop
 
 @section('subnavigation')
     <div id="dvs-admin-actions">
-        <?= link_to(URL::route('admin-portfolioitems-index'), 'All PortfolioItems', array('class' => 'dvs-button dvs-button-secondary')) ?>
+        <?= link_to(URL::route('admin-portfolioitems-index'), 'All Portfolio Items', array('class' => 'dvs-button dvs-button-secondary')) ?>
     </div>
 @stop
 
@@ -18,7 +18,7 @@
 
             @include('admin.portfolio_items._form-fields')
 
-            <?= Form::submit('Create PortfolioItem', ['class' => 'dvs-button dvs-button-solid dvs-button-success']) ?>
+            <?= Form::submit('Create Portfolio Item', ['class' => 'dvs-button dvs-button-solid dvs-button-success']) ?>
         <?= Form::close() ?>
     </div>
 @stop
@@ -27,7 +27,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
     {{-- CKEditor - Uncomment if you want to use ckeditor --}}
-    {{-- 
+    {{--
     <script src="{{ URL::asset('/js/lib/ckeditor/ckeditor.js') }}"></script>
     <script src="{{ URL::asset('/js/lib/ckeditor/adapters/jquery.js') }}"></script>
 

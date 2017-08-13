@@ -1,25 +1,20 @@
     <div class="dvs-form-group">
         <?= Form::label('Portfolio Category Id') ?>
-        <?= Form::text('portfolio_category_id', 'null', array (
-)) ?>
+        <?= Form::select('portfolio_category_id', $portfolioCategories, null, []) ?>
     </div>
     <div class="dvs-form-group">
         <?= Form::label('Name') ?>
-        <?= Form::text('name', 'null', array (
-)) ?>
+        <?= Form::text('name', null, []) ?>
     </div>
     <div class="dvs-form-group">
         <?= Form::label('Description') ?>
-        <?= Form::textarea('description', 'null', array (
-)) ?>
+        <?= Form::textarea('description', null, []) ?>
     </div>
     <div class="dvs-form-group">
         <?= Form::label('Creation Date') ?>
-        <?= Form::text('creation_date', 'null', array (
-)) ?>
+        <?= Form::text('creation_date', null, []) ?>
     </div>
     <div class="dvs-form-group">
         <?= Form::label('More Information') ?>
-        <?= Form::text('more_information', 'null', array (
-)) ?>
+        <?= Form::text('more_information', null, []) ?>
     </div>
