@@ -1,6 +1,6 @@
-<?php
+<?php namespace Installation;
 
-class PortfolioCategoryNewPagesSeeder extends DeviseSeeder
+class PortfolioCategoryNewPagesSeeder extends \DeviseSeeder
 {
   public function run()
   {

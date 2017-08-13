@@ -1,8 +1,8 @@
-<?php
+<?php namespace Installation;
 
 use Illuminate\Database\Seeder;
 
-class DatabaseSeeder extends Seeder
+class Main extends Seeder
 {
     /**
      * Run the database seeds.

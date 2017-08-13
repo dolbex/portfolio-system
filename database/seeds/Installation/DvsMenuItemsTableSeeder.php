@@ -1,4 +1,4 @@
-<?php
+<?php namespace Installation;
 
 use Illuminate\Database\Seeder;
 
@@ -12,12 +12,12 @@ class DvsMenuItemsTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('dvs_menu_items')->delete();
-        
+
         \DB::table('dvs_menu_items')->insert(array (
-            0 => 
+            0 =>
             array (
                 'menu_id' => 1,
                 'page_id' => NULL,
@@ -29,7 +29,7 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'position' => 0,
                 'permission' => '',
             ),
-            1 => 
+            1 =>
             array (
                 'menu_id' => 1,
                 'page_id' => NULL,
@@ -41,7 +41,7 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'position' => 1,
                 'permission' => '',
             ),
-            2 => 
+            2 =>
             array (
                 'menu_id' => 1,
                 'page_id' => NULL,
@@ -53,7 +53,7 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'position' => 5,
                 'permission' => '',
             ),
-            3 => 
+            3 =>
             array (
                 'menu_id' => 1,
                 'page_id' => NULL,
@@ -65,7 +65,7 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'position' => 6,
                 'permission' => '',
             ),
-            4 => 
+            4 =>
             array (
                 'menu_id' => 1,
                 'page_id' => NULL,
@@ -77,7 +77,7 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'position' => 7,
                 'permission' => '',
             ),
-            5 => 
+            5 =>
             array (
                 'menu_id' => 1,
                 'page_id' => NULL,
@@ -89,7 +89,7 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'position' => 8,
                 'permission' => '',
             ),
-            6 => 
+            6 =>
             array (
                 'menu_id' => 1,
                 'page_id' => NULL,
@@ -101,7 +101,7 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'position' => 9,
                 'permission' => '',
             ),
-            7 => 
+            7 =>
             array (
                 'menu_id' => 1,
                 'page_id' => NULL,
@@ -113,7 +113,7 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'position' => 10,
                 'permission' => 'isDeveloper',
             ),
-            8 => 
+            8 =>
             array (
                 'menu_id' => 1,
                 'page_id' => NULL,
@@ -125,7 +125,7 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'position' => 11,
                 'permission' => '',
             ),
-            9 => 
+            9 =>
             array (
                 'menu_id' => 1,
                 'page_id' => NULL,
@@ -137,7 +137,7 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'position' => 12,
                 'permission' => '',
             ),
-            10 => 
+            10 =>
             array (
                 'menu_id' => 1,
                 'page_id' => NULL,
@@ -149,7 +149,7 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'position' => 13,
                 'permission' => '',
             ),
-            11 => 
+            11 =>
             array (
                 'menu_id' => 1,
                 'page_id' => NULL,
@@ -161,7 +161,7 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'position' => 14,
                 'permission' => '',
             ),
-            12 => 
+            12 =>
             array (
                 'menu_id' => 1,
                 'page_id' => NULL,
@@ -173,7 +173,7 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'position' => 15,
                 'permission' => '',
             ),
-            13 => 
+            13 =>
             array (
                 'menu_id' => 1,
                 'page_id' => NULL,
@@ -185,7 +185,7 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'position' => 16,
                 'permission' => '',
             ),
-            14 => 
+            14 =>
             array (
                 'menu_id' => 1,
                 'page_id' => NULL,
@@ -197,7 +197,7 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'position' => 2,
                 'permission' => '',
             ),
-            15 => 
+            15 =>
             array (
                 'menu_id' => 1,
                 'page_id' => NULL,
@@ -209,7 +209,7 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'position' => 3,
                 'permission' => '',
             ),
-            16 => 
+            16 =>
             array (
                 'menu_id' => 1,
                 'page_id' => NULL,
@@ -222,7 +222,7 @@ class DvsMenuItemsTableSeeder extends Seeder
                 'permission' => '',
             ),
         ));
-        
-        
+
+
     }
 }

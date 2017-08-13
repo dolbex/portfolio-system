@@ -1,11 +1,12 @@
 <?php
+namespace Installation;
 
-class BlogNewPagesSeeder extends DeviseSeeder
+class BlogNewPagesSeeder extends \DeviseSeeder
 {
     public function run()
     {
         $pages = array (
-  0 => 
+  0 =>
   array (
     'language_id' => 45,
     'view' => 'admin.blogs.index',
@@ -16,7 +17,7 @@ class BlogNewPagesSeeder extends DeviseSeeder
     'route_name' => 'admin-blogs-index',
     'middleware' => 'devise.permissions:ifNotLoggedInGoToLogin',
   ),
-  1 => 
+  1 =>
   array (
     'language_id' => 45,
     'view' => 'admin.blogs.create',
@@ -27,7 +28,7 @@ class BlogNewPagesSeeder extends DeviseSeeder
     'route_name' => 'admin-blogs-create',
     'middleware' => 'devise.permissions:ifNotLoggedInGoToLogin',
   ),
-  2 => 
+  2 =>
   array (
     'language_id' => 45,
     'view' => 'admin.blogs.edit',
@@ -38,7 +39,7 @@ class BlogNewPagesSeeder extends DeviseSeeder
     'route_name' => 'admin-blogs-edit',
     'middleware' => 'devise.permissions:ifNotLoggedInGoToLogin',
   ),
-  3 => 
+  3 =>
   array (
     'language_id' => 45,
     'view' => NULL,
@@ -51,7 +52,7 @@ class BlogNewPagesSeeder extends DeviseSeeder
     'route_name' => 'admin-blogs-update',
     'middleware' => 'devise.permissions:ifNotLoggedInGoToLogin',
   ),
-  4 => 
+  4 =>
   array (
     'language_id' => 45,
     'view' => NULL,
@@ -64,7 +65,7 @@ class BlogNewPagesSeeder extends DeviseSeeder
     'route_name' => 'admin-blogs-destroy',
     'middleware' => 'devise.permissions:ifNotLoggedInGoToLogin',
   ),
-  5 => 
+  5 =>
   array (
     'language_id' => 45,
     'view' => NULL,

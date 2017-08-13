@@ -1,4 +1,4 @@
-<?php
+<?php namespace App;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
@@ -16,7 +16,7 @@ class AlterDvsPagesForMiddleware extends Migration
             {
                 $table->text('middleware')->nullable()->after('footer');
             });
-            
+
             $this->copyData('before', 'middleware');
 
             Schema::table('dvs_pages', function($table)
@@ -40,7 +40,7 @@ class AlterDvsPagesForMiddleware extends Migration
         {
             $table->text('before')->nullable()->after('footer');
         });
-        
+
         Schema::table('dvs_pages', function($table)
         {
             $table->text('after')->nullable()->after('before');

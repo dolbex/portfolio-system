@@ -1,4 +1,4 @@
-<?php
+<?php namespace Installation;
 
 use Illuminate\Database\Seeder;
 
@@ -12,12 +12,12 @@ class DvsMenusTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('dvs_menus')->delete();
-        
+
         \DB::table('dvs_menus')->insert(array (
-            0 => 
+            0 =>
             array (
                 'language_id' => 45,
                 'translated_from_menu_id' => 0,
@@ -25,7 +25,7 @@ class DvsMenusTableSeeder extends Seeder
                 'links' => NULL,
             ),
         ));
-        
-        
+
+
     }
 }
