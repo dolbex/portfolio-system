@@ -77,6 +77,17 @@ class PortfolioItemNewPagesSeeder extends DeviseSeeder
     'route_name' => 'admin-portfolioitems-store',
     'middleware' => 'devise.permissions:ifNotLoggedInGoToLogin',
   ),
+  6 =>
+  array (
+    'language_id' => 45,
+    'view' => 'admin.portfolio_items.index',
+    'title' => 'Admin Portfolio Item Single Row',
+    'http_verb' => 'get',
+    'slug' => '/admin/portfolio-media-items-single-row',
+    'response_type' => 'View',
+    'route_name' => 'admin-portfolio-items-media-single-row',
+    'middleware' => 'devise.permissions:ifNotLoggedInGoToLogin',
+  ),
 );
 
         $now = date('Y-m-d H:i:s', strtotime('now'));

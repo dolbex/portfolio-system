@@ -12,12 +12,8 @@ class DvsPagesTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
-        \DB::table('dvs_pages')->delete();
-        
         \DB::table('dvs_pages')->insert(array (
-            0 => 
+            0 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -41,7 +37,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            1 => 
+            1 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -65,7 +61,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            2 => 
+            2 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -89,7 +85,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            3 => 
+            3 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -113,7 +109,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            4 => 
+            4 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -137,7 +133,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            5 => 
+            5 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -161,7 +157,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.pageId, input',
                 'deleted_at' => NULL,
             ),
-            6 => 
+            6 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -185,7 +181,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.pageId',
                 'deleted_at' => NULL,
             ),
-            7 => 
+            7 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -209,7 +205,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            8 => 
+            8 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -233,7 +229,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.pageId, input',
                 'deleted_at' => NULL,
             ),
-            9 => 
+            9 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -257,7 +253,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            10 => 
+            10 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -281,7 +277,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            11 => 
+            11 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -305,7 +301,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            12 => 
+            12 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -329,7 +325,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            13 => 
+            13 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -353,7 +349,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.pageId, input',
                 'deleted_at' => NULL,
             ),
-            14 => 
+            14 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -377,7 +373,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.pageId',
                 'deleted_at' => NULL,
             ),
-            15 => 
+            15 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -401,7 +397,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            16 => 
+            16 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -425,7 +421,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            17 => 
+            17 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -449,7 +445,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            18 => 
+            18 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -473,7 +469,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            19 => 
+            19 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -497,7 +493,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            20 => 
+            20 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -521,7 +517,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.userId, input',
                 'deleted_at' => NULL,
             ),
-            21 => 
+            21 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -545,7 +541,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.userId',
                 'deleted_at' => NULL,
             ),
-            22 => 
+            22 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -569,7 +565,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            23 => 
+            23 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -593,7 +589,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            24 => 
+            24 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -617,7 +613,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            25 => 
+            25 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -641,7 +637,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            26 => 
+            26 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -665,7 +661,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.groupId, input',
                 'deleted_at' => NULL,
             ),
-            27 => 
+            27 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -689,7 +685,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.groupId',
                 'deleted_at' => NULL,
             ),
-            28 => 
+            28 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -713,7 +709,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            29 => 
+            29 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -737,7 +733,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.languageId,input',
                 'deleted_at' => NULL,
             ),
-            30 => 
+            30 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -761,7 +757,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            31 => 
+            31 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -785,7 +781,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            32 => 
+            32 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -809,7 +805,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            33 => 
+            33 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -833,7 +829,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            34 => 
+            34 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -857,7 +853,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.menuId,input',
                 'deleted_at' => NULL,
             ),
-            35 => 
+            35 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -881,7 +877,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.fieldId,input',
                 'deleted_at' => NULL,
             ),
-            36 => 
+            36 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -905,7 +901,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.fieldId,params.fieldScope',
                 'deleted_at' => NULL,
             ),
-            37 => 
+            37 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -929,7 +925,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            38 => 
+            38 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -953,7 +949,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.pageId',
                 'deleted_at' => NULL,
             ),
-            39 => 
+            39 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -977,7 +973,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            40 => 
+            40 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1001,7 +997,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            41 => 
+            41 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1025,7 +1021,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            42 => 
+            42 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1049,7 +1045,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            43 => 
+            43 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1073,7 +1069,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            44 => 
+            44 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1097,7 +1093,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            45 => 
+            45 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1121,7 +1117,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            46 => 
+            46 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1145,7 +1141,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            47 => 
+            47 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1169,7 +1165,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            48 => 
+            48 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1193,7 +1189,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.pageVersionId,params.collectionSetId,input',
                 'deleted_at' => NULL,
             ),
-            49 => 
+            49 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1217,7 +1213,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.pageVersionId,params.collectionSetId',
                 'deleted_at' => NULL,
             ),
-            50 => 
+            50 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1241,7 +1237,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.pageVersionId,params.collectionSetId,input',
                 'deleted_at' => NULL,
             ),
-            51 => 
+            51 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1265,7 +1261,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.collectionFieldId,input',
                 'deleted_at' => NULL,
             ),
-            52 => 
+            52 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1289,7 +1285,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.pageVersionId,params.collectionInstanceId,input',
                 'deleted_at' => NULL,
             ),
-            53 => 
+            53 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1313,7 +1309,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.collectionInstanceId',
                 'deleted_at' => NULL,
             ),
-            54 => 
+            54 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1337,7 +1333,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            55 => 
+            55 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1361,7 +1357,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            56 => 
+            56 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1385,7 +1381,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            57 => 
+            57 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1409,7 +1405,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.pageVersionId,input',
                 'deleted_at' => NULL,
             ),
-            58 => 
+            58 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1433,7 +1429,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.pageVersionId,input',
                 'deleted_at' => NULL,
             ),
-            59 => 
+            59 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1457,7 +1453,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.pageId',
                 'deleted_at' => NULL,
             ),
-            60 => 
+            60 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1481,7 +1477,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.pageVersionId',
                 'deleted_at' => NULL,
             ),
-            61 => 
+            61 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1505,7 +1501,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.pageVersionId',
                 'deleted_at' => NULL,
             ),
-            62 => 
+            62 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1529,7 +1525,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            63 => 
+            63 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1553,7 +1549,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            64 => 
+            64 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1577,7 +1573,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            65 => 
+            65 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1601,7 +1597,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            66 => 
+            66 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1625,7 +1621,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            67 => 
+            67 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1649,7 +1645,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            68 => 
+            68 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1673,7 +1669,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            69 => 
+            69 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1697,7 +1693,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            70 => 
+            70 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1721,7 +1717,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            71 => 
+            71 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1745,7 +1741,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            72 => 
+            72 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1769,7 +1765,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            73 => 
+            73 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1793,7 +1789,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.userId,params.activateCode',
                 'deleted_at' => NULL,
             ),
-            74 => 
+            74 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1817,7 +1813,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            75 => 
+            75 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1841,7 +1837,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            76 => 
+            76 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1865,7 +1861,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.pageVersionId,input',
                 'deleted_at' => NULL,
             ),
-            77 => 
+            77 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1889,7 +1885,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            78 => 
+            78 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1913,7 +1909,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            79 => 
+            79 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1937,7 +1933,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.templatePath,input',
                 'deleted_at' => NULL,
             ),
-            80 => 
+            80 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1961,7 +1957,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.templatePath',
                 'deleted_at' => NULL,
             ),
-            81 => 
+            81 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -1985,7 +1981,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.templatePath',
                 'deleted_at' => NULL,
             ),
-            82 => 
+            82 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2009,7 +2005,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.varName',
                 'deleted_at' => NULL,
             ),
-            83 => 
+            83 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2033,7 +2029,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            84 => 
+            84 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2057,7 +2053,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            85 => 
+            85 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2081,7 +2077,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.templatePath',
                 'deleted_at' => NULL,
             ),
-            86 => 
+            86 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2105,7 +2101,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.templatePath,input',
                 'deleted_at' => NULL,
             ),
-            87 => 
+            87 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2129,7 +2125,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            88 => 
+            88 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2153,7 +2149,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            89 => 
+            89 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2177,7 +2173,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            90 => 
+            90 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2201,7 +2197,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            91 => 
+            91 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2225,7 +2221,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            92 => 
+            92 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2249,7 +2245,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input.condition',
                 'deleted_at' => NULL,
             ),
-            93 => 
+            93 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2273,7 +2269,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            94 => 
+            94 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2297,7 +2293,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            95 => 
+            95 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2321,7 +2317,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            96 => 
+            96 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2345,7 +2341,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            97 => 
+            97 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2369,7 +2365,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.modelFieldId,input',
                 'deleted_at' => NULL,
             ),
-            98 => 
+            98 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2393,7 +2389,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            99 => 
+            99 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2417,7 +2413,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            100 => 
+            100 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2441,7 +2437,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'input',
                 'deleted_at' => NULL,
             ),
-            101 => 
+            101 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2465,7 +2461,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            102 => 
+            102 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2489,7 +2485,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            103 => 
+            103 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2513,7 +2509,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => NULL,
                 'deleted_at' => NULL,
             ),
-            104 => 
+            104 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2537,7 +2533,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.blogid, input',
                 'deleted_at' => NULL,
             ),
-            105 => 
+            105 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2561,7 +2557,7 @@ class DvsPagesTableSeeder extends Seeder
                 'response_params' => 'params.blogid',
                 'deleted_at' => NULL,
             ),
-            106 => 
+            106 =>
             array (
                 'language_id' => 45,
                 'translated_from_page_id' => 0,
@@ -2586,7 +2582,7 @@ class DvsPagesTableSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
         ));
-        
-        
+
+
     }
 }

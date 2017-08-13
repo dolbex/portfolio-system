@@ -4,13 +4,13 @@
     </div>
     <div class="dvs-form-group">
         <?= Form::label('Short Description') ?>
-        <?= Form::textarea('short_description', null, ['class' => 'ckeditor']) ?>
+        <?= Form::textarea('short_description', null, ['class' => 'wysiwyg']) ?>
     </div>
     <div class="dvs-form-group">
         <?= Form::label('Long Description') ?>
-        <?= Form::textarea('long_description', null, ['class' => 'ckeditor']) ?>
+        <?= Form::textarea('long_description', null, ['class' => 'wysiwyg']) ?>
     </div>
     <div class="dvs-form-group">
-        <?= Form::label('Display Order') ?>
+        <?= Form::label('Display Order (Number only)') ?>
         <?= Form::text('display_order', null, []) ?>
     </div>

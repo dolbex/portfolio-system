@@ -17,6 +17,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        \DB::table('dvs_pages')->delete();
+        \DB::table('dvs_page_versions')->delete();
+
         $this->call(DvsLanguagesTableSeeder::class);
         $this->call(DvsMenuItemsTableSeeder::class);
         $this->call(DvsMenusTableSeeder::class);

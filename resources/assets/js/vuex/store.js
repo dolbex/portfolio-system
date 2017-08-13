@@ -8,9 +8,6 @@ Vue.use(Vuex)
 // root state object.
 // each Vuex instance is just a single state tree.
 const state = {
-  speed: 2,
-  topPosition: 0,
-  leftPosition: 0
 }
 
 // A Vuex instance is created by combining the state, the actions,

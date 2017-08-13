@@ -1,0 +1,37 @@
+body {
+  background-color: $body-bg;
+  font-size: $font-size-base;
+  font-family: $font-family-serif;
+  line-height: $line-height-base;
+  color: $text-color;
+}
+
+.inverse {
+  color: $body-bg;
+  background-color: $text-color;
+}
+
+.serif { font-family: $font-family-serif }
+.sans-serif { font-family: $font-family-sans-serif; }
+
+h1 {
+  font-size:130px;
+  font-weight: bold;
+  font-style: italic;
+  line-height:1em;
+}
+
+h2 {
+  font-size:48px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+p {
+  font-family: $font-family-sans-serif;
+  margin-bottom:10px;
+
+  &:last-child {
+    margin-bottom:0;
+  }
+}

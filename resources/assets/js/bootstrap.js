@@ -37,7 +37,7 @@ if (token) {
 //
 // window.Echo = new Echo({
 //   broadcaster: 'pusher',
-//   key: '3277b5a9d531faf4b6da',
+//   key: '',
 //   cluster: 'us2',
 //   encrypted: true
 // });

@@ -12,12 +12,8 @@ class DvsPageVersionsTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
-        \DB::table('dvs_page_versions')->delete();
-        
         \DB::table('dvs_page_versions')->insert(array (
-            0 => 
+            0 =>
             array (
                 'page_id' => 1,
                 'created_by_user_id' => 1,
@@ -29,7 +25,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            1 => 
+            1 =>
             array (
                 'page_id' => 2,
                 'created_by_user_id' => 1,
@@ -41,7 +37,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            2 => 
+            2 =>
             array (
                 'page_id' => 3,
                 'created_by_user_id' => 1,
@@ -53,7 +49,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            3 => 
+            3 =>
             array (
                 'page_id' => 4,
                 'created_by_user_id' => 1,
@@ -65,7 +61,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            4 => 
+            4 =>
             array (
                 'page_id' => 5,
                 'created_by_user_id' => 1,
@@ -77,7 +73,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            5 => 
+            5 =>
             array (
                 'page_id' => 6,
                 'created_by_user_id' => 1,
@@ -89,7 +85,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            6 => 
+            6 =>
             array (
                 'page_id' => 7,
                 'created_by_user_id' => 1,
@@ -101,7 +97,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            7 => 
+            7 =>
             array (
                 'page_id' => 8,
                 'created_by_user_id' => 1,
@@ -113,7 +109,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            8 => 
+            8 =>
             array (
                 'page_id' => 9,
                 'created_by_user_id' => 1,
@@ -125,7 +121,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            9 => 
+            9 =>
             array (
                 'page_id' => 10,
                 'created_by_user_id' => 1,
@@ -137,7 +133,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            10 => 
+            10 =>
             array (
                 'page_id' => 11,
                 'created_by_user_id' => 1,
@@ -149,7 +145,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            11 => 
+            11 =>
             array (
                 'page_id' => 12,
                 'created_by_user_id' => 1,
@@ -161,7 +157,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            12 => 
+            12 =>
             array (
                 'page_id' => 13,
                 'created_by_user_id' => 1,
@@ -173,7 +169,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            13 => 
+            13 =>
             array (
                 'page_id' => 14,
                 'created_by_user_id' => 1,
@@ -185,7 +181,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            14 => 
+            14 =>
             array (
                 'page_id' => 15,
                 'created_by_user_id' => 1,
@@ -197,7 +193,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            15 => 
+            15 =>
             array (
                 'page_id' => 16,
                 'created_by_user_id' => 1,
@@ -209,7 +205,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            16 => 
+            16 =>
             array (
                 'page_id' => 17,
                 'created_by_user_id' => 1,
@@ -221,7 +217,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            17 => 
+            17 =>
             array (
                 'page_id' => 18,
                 'created_by_user_id' => 1,
@@ -233,7 +229,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            18 => 
+            18 =>
             array (
                 'page_id' => 19,
                 'created_by_user_id' => 1,
@@ -245,7 +241,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            19 => 
+            19 =>
             array (
                 'page_id' => 20,
                 'created_by_user_id' => 1,
@@ -257,7 +253,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            20 => 
+            20 =>
             array (
                 'page_id' => 21,
                 'created_by_user_id' => 1,
@@ -269,7 +265,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            21 => 
+            21 =>
             array (
                 'page_id' => 22,
                 'created_by_user_id' => 1,
@@ -281,7 +277,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            22 => 
+            22 =>
             array (
                 'page_id' => 23,
                 'created_by_user_id' => 1,
@@ -293,7 +289,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            23 => 
+            23 =>
             array (
                 'page_id' => 24,
                 'created_by_user_id' => 1,
@@ -305,7 +301,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            24 => 
+            24 =>
             array (
                 'page_id' => 25,
                 'created_by_user_id' => 1,
@@ -317,7 +313,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            25 => 
+            25 =>
             array (
                 'page_id' => 26,
                 'created_by_user_id' => 1,
@@ -329,7 +325,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            26 => 
+            26 =>
             array (
                 'page_id' => 27,
                 'created_by_user_id' => 1,
@@ -341,7 +337,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            27 => 
+            27 =>
             array (
                 'page_id' => 28,
                 'created_by_user_id' => 1,
@@ -353,7 +349,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            28 => 
+            28 =>
             array (
                 'page_id' => 29,
                 'created_by_user_id' => 1,
@@ -365,7 +361,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            29 => 
+            29 =>
             array (
                 'page_id' => 30,
                 'created_by_user_id' => 1,
@@ -377,7 +373,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            30 => 
+            30 =>
             array (
                 'page_id' => 31,
                 'created_by_user_id' => 1,
@@ -389,7 +385,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            31 => 
+            31 =>
             array (
                 'page_id' => 32,
                 'created_by_user_id' => 1,
@@ -401,7 +397,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            32 => 
+            32 =>
             array (
                 'page_id' => 33,
                 'created_by_user_id' => 1,
@@ -413,7 +409,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            33 => 
+            33 =>
             array (
                 'page_id' => 34,
                 'created_by_user_id' => 1,
@@ -425,7 +421,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            34 => 
+            34 =>
             array (
                 'page_id' => 35,
                 'created_by_user_id' => 1,
@@ -437,7 +433,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            35 => 
+            35 =>
             array (
                 'page_id' => 36,
                 'created_by_user_id' => 1,
@@ -449,7 +445,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            36 => 
+            36 =>
             array (
                 'page_id' => 37,
                 'created_by_user_id' => 1,
@@ -461,7 +457,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            37 => 
+            37 =>
             array (
                 'page_id' => 38,
                 'created_by_user_id' => 1,
@@ -473,7 +469,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            38 => 
+            38 =>
             array (
                 'page_id' => 39,
                 'created_by_user_id' => 1,
@@ -485,7 +481,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            39 => 
+            39 =>
             array (
                 'page_id' => 40,
                 'created_by_user_id' => 1,
@@ -497,7 +493,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            40 => 
+            40 =>
             array (
                 'page_id' => 41,
                 'created_by_user_id' => 1,
@@ -509,7 +505,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            41 => 
+            41 =>
             array (
                 'page_id' => 42,
                 'created_by_user_id' => 1,
@@ -521,7 +517,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            42 => 
+            42 =>
             array (
                 'page_id' => 43,
                 'created_by_user_id' => 1,
@@ -533,7 +529,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            43 => 
+            43 =>
             array (
                 'page_id' => 44,
                 'created_by_user_id' => 1,
@@ -545,7 +541,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            44 => 
+            44 =>
             array (
                 'page_id' => 45,
                 'created_by_user_id' => 1,
@@ -557,7 +553,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            45 => 
+            45 =>
             array (
                 'page_id' => 46,
                 'created_by_user_id' => 1,
@@ -569,7 +565,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            46 => 
+            46 =>
             array (
                 'page_id' => 47,
                 'created_by_user_id' => 1,
@@ -581,7 +577,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            47 => 
+            47 =>
             array (
                 'page_id' => 48,
                 'created_by_user_id' => 1,
@@ -593,7 +589,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            48 => 
+            48 =>
             array (
                 'page_id' => 49,
                 'created_by_user_id' => 1,
@@ -605,7 +601,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            49 => 
+            49 =>
             array (
                 'page_id' => 50,
                 'created_by_user_id' => 1,
@@ -617,7 +613,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            50 => 
+            50 =>
             array (
                 'page_id' => 51,
                 'created_by_user_id' => 1,
@@ -629,7 +625,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            51 => 
+            51 =>
             array (
                 'page_id' => 52,
                 'created_by_user_id' => 1,
@@ -641,7 +637,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            52 => 
+            52 =>
             array (
                 'page_id' => 53,
                 'created_by_user_id' => 1,
@@ -653,7 +649,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            53 => 
+            53 =>
             array (
                 'page_id' => 54,
                 'created_by_user_id' => 1,
@@ -665,7 +661,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            54 => 
+            54 =>
             array (
                 'page_id' => 55,
                 'created_by_user_id' => 1,
@@ -677,7 +673,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            55 => 
+            55 =>
             array (
                 'page_id' => 56,
                 'created_by_user_id' => 1,
@@ -689,7 +685,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            56 => 
+            56 =>
             array (
                 'page_id' => 57,
                 'created_by_user_id' => 1,
@@ -701,7 +697,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            57 => 
+            57 =>
             array (
                 'page_id' => 58,
                 'created_by_user_id' => 1,
@@ -713,7 +709,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            58 => 
+            58 =>
             array (
                 'page_id' => 59,
                 'created_by_user_id' => 1,
@@ -725,7 +721,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            59 => 
+            59 =>
             array (
                 'page_id' => 60,
                 'created_by_user_id' => 1,
@@ -737,7 +733,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            60 => 
+            60 =>
             array (
                 'page_id' => 61,
                 'created_by_user_id' => 1,
@@ -749,7 +745,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            61 => 
+            61 =>
             array (
                 'page_id' => 62,
                 'created_by_user_id' => 1,
@@ -761,7 +757,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            62 => 
+            62 =>
             array (
                 'page_id' => 63,
                 'created_by_user_id' => 1,
@@ -773,7 +769,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            63 => 
+            63 =>
             array (
                 'page_id' => 64,
                 'created_by_user_id' => 1,
@@ -785,7 +781,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            64 => 
+            64 =>
             array (
                 'page_id' => 65,
                 'created_by_user_id' => 1,
@@ -797,7 +793,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            65 => 
+            65 =>
             array (
                 'page_id' => 66,
                 'created_by_user_id' => 1,
@@ -809,7 +805,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            66 => 
+            66 =>
             array (
                 'page_id' => 67,
                 'created_by_user_id' => 1,
@@ -821,7 +817,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            67 => 
+            67 =>
             array (
                 'page_id' => 68,
                 'created_by_user_id' => 1,
@@ -833,7 +829,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            68 => 
+            68 =>
             array (
                 'page_id' => 69,
                 'created_by_user_id' => 1,
@@ -845,7 +841,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            69 => 
+            69 =>
             array (
                 'page_id' => 70,
                 'created_by_user_id' => 1,
@@ -857,7 +853,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            70 => 
+            70 =>
             array (
                 'page_id' => 71,
                 'created_by_user_id' => 1,
@@ -869,7 +865,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            71 => 
+            71 =>
             array (
                 'page_id' => 72,
                 'created_by_user_id' => 1,
@@ -881,7 +877,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            72 => 
+            72 =>
             array (
                 'page_id' => 73,
                 'created_by_user_id' => 1,
@@ -893,7 +889,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            73 => 
+            73 =>
             array (
                 'page_id' => 74,
                 'created_by_user_id' => 1,
@@ -905,7 +901,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            74 => 
+            74 =>
             array (
                 'page_id' => 75,
                 'created_by_user_id' => 1,
@@ -917,7 +913,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            75 => 
+            75 =>
             array (
                 'page_id' => 76,
                 'created_by_user_id' => 1,
@@ -929,7 +925,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            76 => 
+            76 =>
             array (
                 'page_id' => 77,
                 'created_by_user_id' => 1,
@@ -941,7 +937,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            77 => 
+            77 =>
             array (
                 'page_id' => 78,
                 'created_by_user_id' => 1,
@@ -953,7 +949,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            78 => 
+            78 =>
             array (
                 'page_id' => 79,
                 'created_by_user_id' => 1,
@@ -965,7 +961,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            79 => 
+            79 =>
             array (
                 'page_id' => 80,
                 'created_by_user_id' => 1,
@@ -977,7 +973,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            80 => 
+            80 =>
             array (
                 'page_id' => 81,
                 'created_by_user_id' => 1,
@@ -989,7 +985,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            81 => 
+            81 =>
             array (
                 'page_id' => 82,
                 'created_by_user_id' => 1,
@@ -1001,7 +997,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            82 => 
+            82 =>
             array (
                 'page_id' => 83,
                 'created_by_user_id' => 1,
@@ -1013,7 +1009,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            83 => 
+            83 =>
             array (
                 'page_id' => 84,
                 'created_by_user_id' => 1,
@@ -1025,7 +1021,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            84 => 
+            84 =>
             array (
                 'page_id' => 85,
                 'created_by_user_id' => 1,
@@ -1037,7 +1033,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            85 => 
+            85 =>
             array (
                 'page_id' => 86,
                 'created_by_user_id' => 1,
@@ -1049,7 +1045,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            86 => 
+            86 =>
             array (
                 'page_id' => 87,
                 'created_by_user_id' => 1,
@@ -1061,7 +1057,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            87 => 
+            87 =>
             array (
                 'page_id' => 88,
                 'created_by_user_id' => 1,
@@ -1073,7 +1069,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            88 => 
+            88 =>
             array (
                 'page_id' => 89,
                 'created_by_user_id' => 1,
@@ -1085,7 +1081,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            89 => 
+            89 =>
             array (
                 'page_id' => 90,
                 'created_by_user_id' => 1,
@@ -1097,7 +1093,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            90 => 
+            90 =>
             array (
                 'page_id' => 91,
                 'created_by_user_id' => 1,
@@ -1109,7 +1105,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            91 => 
+            91 =>
             array (
                 'page_id' => 92,
                 'created_by_user_id' => 1,
@@ -1121,7 +1117,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            92 => 
+            92 =>
             array (
                 'page_id' => 93,
                 'created_by_user_id' => 1,
@@ -1133,7 +1129,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            93 => 
+            93 =>
             array (
                 'page_id' => 94,
                 'created_by_user_id' => 1,
@@ -1145,7 +1141,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            94 => 
+            94 =>
             array (
                 'page_id' => 95,
                 'created_by_user_id' => 1,
@@ -1157,7 +1153,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            95 => 
+            95 =>
             array (
                 'page_id' => 96,
                 'created_by_user_id' => 1,
@@ -1169,7 +1165,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            96 => 
+            96 =>
             array (
                 'page_id' => 97,
                 'created_by_user_id' => 1,
@@ -1181,7 +1177,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            97 => 
+            97 =>
             array (
                 'page_id' => 98,
                 'created_by_user_id' => 1,
@@ -1193,7 +1189,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            98 => 
+            98 =>
             array (
                 'page_id' => 99,
                 'created_by_user_id' => 1,
@@ -1205,7 +1201,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            99 => 
+            99 =>
             array (
                 'page_id' => 100,
                 'created_by_user_id' => 1,
@@ -1217,7 +1213,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            100 => 
+            100 =>
             array (
                 'page_id' => 101,
                 'created_by_user_id' => 1,
@@ -1229,7 +1225,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            101 => 
+            101 =>
             array (
                 'page_id' => 102,
                 'created_by_user_id' => 1,
@@ -1241,7 +1237,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            102 => 
+            102 =>
             array (
                 'page_id' => 103,
                 'created_by_user_id' => 1,
@@ -1253,7 +1249,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            103 => 
+            103 =>
             array (
                 'page_id' => 104,
                 'created_by_user_id' => 1,
@@ -1265,7 +1261,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            104 => 
+            104 =>
             array (
                 'page_id' => 105,
                 'created_by_user_id' => 1,
@@ -1277,7 +1273,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            105 => 
+            105 =>
             array (
                 'page_id' => 106,
                 'created_by_user_id' => 1,
@@ -1289,7 +1285,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'preview_hash' => NULL,
                 'deleted_at' => NULL,
             ),
-            106 => 
+            106 =>
             array (
                 'page_id' => 107,
                 'created_by_user_id' => 1,
@@ -1302,7 +1298,7 @@ class DvsPageVersionsTableSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
         ));
-        
-        
+
+
     }
 }

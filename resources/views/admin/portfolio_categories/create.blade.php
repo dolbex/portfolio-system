@@ -8,7 +8,7 @@
 
 @section('subnavigation')
     <div id="dvs-admin-actions">
-        <?= link_to(URL::route('admin-portfoliocategories-index'), 'All Portfolio Categories', array('class' => 'dvs-button dvs-button-secondary')) ?>
+        <?= link_to(URL::route('admin-portfoliocategories-index'), 'All PortfolioCategories', array('class' => 'dvs-button dvs-button-secondary')) ?>
     </div>
 @stop
 
@@ -24,5 +24,7 @@
 @stop
 
 @section('js')
-    <script src="{{ mix('/js/admin.js') }}"></script>
+    <script>
+        devise.require(['../../../../../js/admin'])
+    </script>
 @stop

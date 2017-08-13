@@ -1,0 +1,25 @@
+
+.fancy-divider {
+  position:relative;
+  border-bottom:1px solid #fafafa;
+  text-align: center;
+  width:50%;
+  margin:30px auto;
+
+  i {
+    position:absolute;
+    font-size:32px;
+    background-color: $black;
+    top:-16px;
+    left:calc(50% - 30px);
+    width:60px;
+  }
+
+  &.dark {
+    border-bottom-color: $black;
+
+    i {
+      background-color: $white;
+    }
+  }
+}

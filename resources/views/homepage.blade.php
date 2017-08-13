@@ -1,25 +1,34 @@
-@extends('devise::layouts.public')
+@extends('master')
 
 @section('content')
+  <header class="inverse" style="background-image:url('/imgs/fpo/placeholder-homepage-header.jpg')">
+    @include('_navigation')
 
-	<div class="container pt sp75">
+    <div class="content left">
+      <h1>Shoots.</h1>
 
-        <div class="tac mb sp50">
-            <img data-devise="postInstallLogo, image, It's Your App Now" src="<?= $page->postInstallLogo->image('/packages/devisephp/cms/img/admin-logo.png') ?>">
-        </div>
+      <div class="fancy-divider">
+        <i class="icon-aperature"></i>
+      </div>
 
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3 tac">
-
-            	<h1 class="mb sp30" data-devise="postInstallQuote, text, Make it Yours">
-            		{!! $page->postInstallQuote->text('"Toto, I have a feeling we\'re not in Kansas anymore." <br><small>― L. Frank Baum</small>') !!}
-            	</h1>
-
-            </div>
-        </div>
+      <p>Venison chicken short ribs porchetta beef ham hock pig. Pork spare ribs shoulder shank cow drumstick chicken bacon tenderloin salami andouille kevin turkey capicola biltong. </p>
     </div>
+  </header>
 
-    @yield('scripts')
-    <script>devise.require(['app/admin/admin'])</script>
+  <div class="content">
+    @for ($i=0; $i < count($categories); $i++)
 
+      @if($i%2 == 0)
+        <div class="left">
+      @else
+        <div class="right">
+      @endif
+
+        @include('_category-introduction', ['category' => $categories[$i]])
+
+      </div>
+
+    @endfor
+
+  </div>
 @stop

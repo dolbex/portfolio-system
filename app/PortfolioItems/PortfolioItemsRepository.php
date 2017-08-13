@@ -2,9 +2,9 @@
 
 use  App\PortfolioItem;
 
-class PortfolioItemsRepository 
+class PortfolioItemsRepository
 {
-	function __construct(PortfolioItem $portfolioItem) 
+	function __construct(PortfolioItem $portfolioItem)
 	{
 		$this->PortfolioItem = $portfolioItem;
 	}
@@ -16,6 +16,6 @@ class PortfolioItemsRepository
 
 	function getAllPortfolioItems()
 	{
-		return $this->PortfolioItem->paginate();
+		return $this->PortfolioItem->with('category')->paginate();
 	}
 }
