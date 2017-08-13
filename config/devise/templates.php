@@ -9,6 +9,17 @@
     'human_name' => 'Homepage Template',
     'extends' => 'master'
   ],
+  'category' => [
+    'human_name' => 'Homepage Template',
+    'extends' => 'master',
+    'vars' => [
+      'category' => [
+        'App\PortfolioCategories\PortfolioCategoriesRepository.getPortfolioCategoryBySlug' => [
+          '{params.slug}'
+        ]
+      ]
+    ]
+  ],
   'admin.blogs.create' => array(
     'human_name' => 'Admin Create Blogs',
     'extends' => 'devise::admin.layouts.master',

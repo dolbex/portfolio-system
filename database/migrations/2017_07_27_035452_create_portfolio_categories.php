@@ -15,6 +15,7 @@ class CreatePortfolioCategories extends Migration {
         Schema::create('portfolio_categories', function($table) {
                 $table->increments('id');
                 $table->string('name');
+                $table->string('slug');
                 $table->text('short_description')->nullable();
                 $table->text('long_description')->nullable();
                 $table->integer('display_order');

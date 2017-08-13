@@ -14,6 +14,11 @@ class PortfolioCategoriesRepository
 		return $this->PortfolioCategory->with('items')->findorfail($id);
 	}
 
+	function getPortfolioCategoryBySlug($slug)
+	{
+		return $this->PortfolioCategory->with('items')->where('slug', $slug)->first();
+	}
+
 	function getAllPortfolioCategories()
 	{
 		return $this->PortfolioCategory->with('items')->orderBy('display_order')->get();

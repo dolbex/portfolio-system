@@ -3,6 +3,10 @@
         <?= Form::text('name', null, []) ?>
     </div>
     <div class="dvs-form-group">
+        <?= Form::label('Slug (No spaces, all lower case and dashes)') ?>
+        <?= Form::text('slug', null, []) ?>
+    </div>
+    <div class="dvs-form-group">
         <?= Form::label('Short Description') ?>
         <?= Form::textarea('short_description', null, ['class' => 'wysiwyg']) ?>
     </div>

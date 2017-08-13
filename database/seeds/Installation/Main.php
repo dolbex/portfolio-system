@@ -33,5 +33,6 @@ class Main extends Seeder
         $this->call(BlogNewPagesSeeder::class);
         $this->call(PortfolioCategoryNewPagesSeeder::class);
         $this->call(PortfolioItemNewPagesSeeder::class);
+        $this->call(AdditionalPages::class);
     }
 }

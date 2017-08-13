@@ -3281,7 +3281,6 @@ p:last-child {
 
 header {
   position: relative;
-  height: 700px;
   background-color: #212121;
   background-repeat: no-repeat;
   background-position: center;
@@ -3301,7 +3300,7 @@ header .content {
       -ms-flex-pack: center;
           justify-content: center;
   width: 50%;
-  height: 600px;
+  min-height: 600px;
   margin: 0 auto;
   min-width: 200px;
   text-align: center;

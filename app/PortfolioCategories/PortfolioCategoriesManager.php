@@ -62,6 +62,7 @@ class PortfolioCategoriesManager
     		$portfolioCategory = $this->PortfolioCategory;
 
             $portfolioCategory->name = $input['name'];
+            $portfolioCategory->slug = str_slug($input['slug']);
             $portfolioCategory->short_description = $input['short_description'];
             $portfolioCategory->long_description = $input['long_description'];
             $portfolioCategory->display_order = $input['display_order'];
@@ -105,6 +106,7 @@ class PortfolioCategoriesManager
     		$portfolioCategory = $this->PortfolioCategory->findOrFail($id);
 
             $portfolioCategory->name = $input['name'];
+            $portfolioCategory->slug = str_slug($input['slug']);
             $portfolioCategory->short_description = $input['short_description'];
             $portfolioCategory->long_description = $input['long_description'];
             $portfolioCategory->display_order = $input['display_order'];
@@ -130,7 +132,7 @@ class PortfolioCategoriesManager
 	{
 		$portfolioCategory = $this->PortfolioCategory->findOrFail($id);
 		$portfolioCategory->delete();
-		
+
 		return $portfolioCategory;
 	}
 
