@@ -34,3 +34,5 @@
         <?= Form::label('Display Order (Number only)') ?>
         <?= Form::text('display_order', null, []) ?>
     </div>
+
+    @include('admin.portfolio_items._media-list')

@@ -1,0 +1,17 @@
+
+.dropdown {
+  position:relative;
+  padding-right:5px;
+
+  &:after {
+    position:absolute;
+    right:-5px;
+    top:calc(50% - 2.5px);
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 2.5px 0 2.5px;
+    border-color: #fafafa transparent transparent transparent;
+  }
+}

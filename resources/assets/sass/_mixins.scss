@@ -1,0 +1,87 @@
+
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// unitless function to convert px to em
+@function em($pixels, $context: $browser-context) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+  @return $pixels / $context * 1em;
+}
+
+@mixin foreground-background($color) {
+  &.bg { background-color:$color !important }
+  &.fg { color: $color !important }
+  &.border { border-color: $color !important }
+}
+
+// margins
+@mixin create-spaces($margins) {
+  @each $margin in $margins {
+    .sp#{$margin} {
+      &.mt { margin-top:#{$margin}px }
+      &.mb { margin-bottom:#{$margin}px }
+      &.ml { margin-left:#{$margin}px }
+      &.mr { margin-right:#{$margin}px }
+      &.mall { margin:#{$margin}px }
+
+      &.pt { padding-top:#{$margin}px }
+      &.pb { padding-bottom:#{$margin}px }
+      &.pl { padding-left:#{$margin}px }
+      &.pr { padding-right:#{$margin}px }
+      &.pall { padding:#{$margin}px }
+
+      &.bottom { bottom:#{$margin}px }
+      &.top { top:#{$margin}px }
+      &.left { left:#{$margin}px }
+      &.right { right:#{$margin}px }
+
+      @include for-phone-only {
+        $mobileMargin: $margin * $mobileModifier;
+
+        &.mt { margin-top:#{$mobileMargin}px }
+        &.mb { margin-bottom:#{$mobileMargin}px }
+        &.ml { margin-left:#{$mobileMargin}px }
+        &.mr { margin-right:#{$mobileMargin}px }
+        &.mall { margin:#{$mobileMargin}px }
+
+        &.pt { padding-top:#{$mobileMargin}px }
+        &.pb { padding-bottom:#{$mobileMargin}px }
+        &.pl { padding-left:#{$mobileMargin}px }
+        &.pr { padding-right:#{$mobileMargin}px }
+        &.pall { padding:#{$mobileMargin}px }
+
+        &.bottom { bottom:#{$mobileMargin}px }
+        &.top { top:#{$mobileMargin}px }
+        &.left { left:#{$mobileMargin}px }
+        &.right { right:#{$mobileMargin}px }
+      }
+    }
+
+  }
+}

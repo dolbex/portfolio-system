@@ -1,0 +1,72 @@
+#navigation {
+  position:relative;
+  z-index:100;
+  padding:10px 20px;
+  @extend .clearfix;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  > div,
+  > ul {
+    float:left;
+  }
+
+  > ul {
+    > li {
+      position:relative;
+      float:left;
+      margin-right:20px;
+      font-family: $font-family-sans-serif;
+      font-size:12px;
+      cursor:pointer;
+
+      > ul {
+        position:absolute;
+        top:25px;
+        min-width:120px;
+        max-height:0;
+        overflow:hidden;
+        transition: all 0.5s ease-in;
+
+        > li {
+          margin-top:5px;
+        }
+      }
+
+      &:hover {
+        > ul {
+          max-height:500px;
+        }
+      }
+    }
+  }
+
+  .logo {
+    font-size:22px;
+    font-weight: bold;
+    font-style:italic;
+  }
+
+  color: white;
+
+  a {
+    color:white;
+  }
+
+  .right,
+  .left {
+    float:left;
+    margin-left:30px;
+    padding-top:10px;
+  }
+
+  .right {
+    float:right;
+  }
+}
