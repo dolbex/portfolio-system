@@ -11,11 +11,11 @@ class PortfolioItemsRepository
 
 	function getPortfolioItem($id)
 	{
-		return $this->PortfolioItem->findorfail($id);
+		return $this->PortfolioItem->orderBy('portfolio_category_id')->orderBy('display_order')->findorfail($id);
 	}
 
 	function getAllPortfolioItems()
 	{
-		return $this->PortfolioItem->with('category')->paginate();
+		return $this->PortfolioItem->with('category')->orderBy('portfolio_category_id')->orderBy('display_order')->paginate();
 	}
 }

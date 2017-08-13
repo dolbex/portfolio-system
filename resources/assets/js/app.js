@@ -4,11 +4,13 @@ window.Vue = require('vue');
 
 import store from './vuex/store'
 import inView from 'in-view'
+import objectFitImages from 'object-fit-images';
 
 const app = new Vue({
   el: '#app',
   store: store,
   mounted: function () {
+    objectFitImages('img', {watchMQ: true})
     this.setParallaxWatchers()
   },
   methods: {

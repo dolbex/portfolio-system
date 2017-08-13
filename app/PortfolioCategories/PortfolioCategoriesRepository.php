@@ -11,12 +11,12 @@ class PortfolioCategoriesRepository
 
 	function getPortfolioCategory($id)
 	{
-		return $this->PortfolioCategory->findorfail($id);
+		return $this->PortfolioCategory->with('items')->findorfail($id);
 	}
 
 	function getAllPortfolioCategories()
 	{
-		return $this->PortfolioCategory->orderBy('display_order')->get();
+		return $this->PortfolioCategory->with('items')->orderBy('display_order')->get();
 	}
 
   function getAllPortfolioCategoriesList()

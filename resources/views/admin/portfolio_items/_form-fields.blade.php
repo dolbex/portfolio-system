@@ -36,7 +36,7 @@
     </div>
 
     @if(isset($portfolioItem))
-    <image-select :media="{{ $portfolioItem->media }}" fieldname="media"></image-select>
+    <image-select :media="{{ json_encode($portfolioItem->media) }}" fieldname="media"></image-select>
     @else
     <image-select :media="[]" fieldname="media"></image-select>
     @endif

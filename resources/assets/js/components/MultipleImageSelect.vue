@@ -1,5 +1,31 @@
-<style>
+<style lang="scss">
+  .media-images {
+    display:flex;
+  }
+  .media-image {
+    position: relative;
+    margin-right:20px;
 
+    img {
+      object-fit: cover;
+      object-position: 50% 50%;
+      width:200px;
+      height:200px;
+    }
+
+    a {
+      position:absolute;
+      top:5%;
+      right:5%;
+      font-size:10px;
+      text-decoration: none;
+      font-weight:bold;
+      color:black!important;
+      padding:5px 8px;
+      background-color:white;
+      border-radius: 2px;
+    }
+  }
 </style>
 
 <template>
@@ -8,11 +34,13 @@
       <button type="button" class="dvs-button dvs-button-success add" @click="addImage">Add Image</button>
     </h3>
     <hr>
-    <div v-for="(media, index) in images"
-         :style="{backgroundImage:'url(' + media + ')'}">
-      <a href="javascript:void(0)" @click="onDeleteImage(index)" class="image-delete">X</a>
+    <div class="media-images">
+      <div class="media-image" v-for="(media, index) in images">
+        <img :src="media">
+        <a href="javascript:void(0)" @click="onDeleteImage(index)" class="image-delete">X</a>
+      </div>
     </div>
-    <input type="text" :value="imagesJson" :name="fieldname">
+    <input type="hidden" :value="imagesJson" :name="fieldname">
   </div>
 </template>
 
@@ -24,7 +52,6 @@
       }
     },
     mounted: function () {
-      console.log('here')
       this.images = this.media
     },
     methods: {

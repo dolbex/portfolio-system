@@ -1,3 +1,7 @@
 .clearfix { @include clearfix }
 
 @include create-spaces($spaces)
+
+img.cover, video.cover {
+	object-fit: cover;
+}

@@ -12,8 +12,10 @@
       <a class="btn" href="#">View More</a>
     </p>
   </div>
-  <div class="in-view dim parallax preview">
+  @if(isset($category->items[0]) && isset($category->items[0]->media[0]))
+  <div class="in-view dim preview">
     <div class="dimmer"></div>
-    <img src="/imgs/fpo/placeholder-wide.jpg">
+    <img src="{{ $category->items[0]->media[0] }}">
   </div>
+  @endif
 </div>

@@ -9,4 +9,9 @@ class PortfolioItem extends Model {
   {
     return $this->belongsTo('App\PortfolioCategory', 'portfolio_category_id');
   }
+
+  public function getMediaAttribute($value)
+  {
+    return json_decode($value);
+  }
 }

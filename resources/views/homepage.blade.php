@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('content')
-  <header class="inverse" style="background-image:url('/imgs/fpo/placeholder-homepage-header.jpg')">
+  <header class="inverse">
     @include('_navigation')
 
     <div class="content left">
