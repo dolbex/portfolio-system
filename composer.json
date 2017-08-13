@@ -6,9 +6,10 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
+        "devisephp/cms": "dev-unstable#53f0e138d23e24ae82f90ff60dbe6c70cf784744",
+        "guzzlehttp/guzzle": "^6.3",
         "laravel/framework": "5.4.*",
-        "laravel/tinker": "~1.0",
-        "devisephp/cms": "dev-unstable#53f0e138d23e24ae82f90ff60dbe6c70cf784744"
+        "laravel/tinker": "~1.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

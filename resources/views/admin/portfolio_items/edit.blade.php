@@ -13,7 +13,7 @@
 @stop
 
 @section('main')
-    <div class="dvs-admin-form-horizontal">
+    <div class="dvs-admin-form-horizontal" id="admin-app">
         <?= Form::model($portfolioItem, array('method' => 'PUT', 'route' => array('admin-portfolioitems-update', $portfolioItem->id))) ?>
 
             @include('admin.portfolio_items._form-fields')
@@ -25,6 +25,7 @@
 @stop
 
 @section('js')
+    <script src="{{ mix('/js/admin-app.js') }}"></script>
     <script>
         devise.require(['../../../../../js/admin'])
     </script>

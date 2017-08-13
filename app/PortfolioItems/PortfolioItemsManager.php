@@ -43,7 +43,7 @@ class PortfolioItemsManager
   public function createRules()
   {
     return array(
-      // 'title' => 'required',
+      'display_order' => 'required',
     );
   }
 
@@ -59,22 +59,7 @@ class PortfolioItemsManager
 
     if ($validator->passes())
     {
-      $portfolioItem = $this->PortfolioItem;
-
-      $portfolioItem->portfolio_category_id = $input['portfolio_category_id'];
-      $portfolioItem->name = $input['name'];
-      $portfolioItem->description = $input['description'];
-      $portfolioItem->creation_date = date('Y-m-d H:i:s', strtotime($input['creation_date']));
-      $portfolioItem->more_information = isset($input['more_information']) ? 1 : 0;
-      $portfolioItem->on_right = isset($input['on_right']) ? 1 : 0;
-      $portfolioItem->on_top = isset($input['on_top']) ? 1 : 0;
-      $portfolioItem->dark = isset($input['dark']) ? 1 : 0;
-      $portfolioItem->display_order = $input['display_order'];
-
-
-      $portfolioItem->save();
-
-      return $portfolioItem;
+      return $this->savePortfolioItem($input);
     }
 
     $this->errors = $validator->errors()->all();
@@ -107,22 +92,8 @@ class PortfolioItemsManager
 
     if ($validator->passes())
     {
-      $portfolioItem = $this->PortfolioItem->findOrFail($id);
-
-      $portfolioItem->portfolio_category_id = $input['portfolio_category_id'];
-      $portfolioItem->name = $input['name'];
-      $portfolioItem->description = $input['description'];
-      $portfolioItem->creation_date = $input['creation_date'];
-      $portfolioItem->more_information = isset($input['more_information']) ? 1 : 0;
-      $portfolioItem->on_right = isset($input['on_right']) ? 1 : 0;
-      $portfolioItem->on_top = isset($input['on_top']) ? 1 : 0;
-      $portfolioItem->dark = isset($input['dark']) ? 1 : 0;
-      $portfolioItem->display_order = $input['display_order'];
-
-
-      $portfolioItem->save();
-
-      return $portfolioItem;
+      $input['id'] = $id;
+      return $this->savePortfolioItem($input);
     }
 
     $this->errors = $validator->errors()->all();
@@ -142,6 +113,34 @@ class PortfolioItemsManager
     $portfolioItem->delete();
 
     return $portfolioItem;
+  }
+
+  private function savePortfolioItem($data) {
+    if (isset($data['id']))
+    {
+      $item = $this->PortfolioItem->find($data['id']);
+    }
+    else
+    {
+      $item = new PortfolioItem();
+    }
+
+    // dd($data['media']);
+
+    $item->portfolio_category_id = $data['portfolio_category_id'];
+    $item->name = $data['name'];
+    $item->description = $data['description'];
+    $item->creation_date = date('Y-m-d H:i:s', strtotime($data['creation_date']));
+    $item->more_information = isset($data['more_information']) ? 1 : 0;
+    $item->on_right = isset($data['on_right']) ? 1 : 0;
+    $item->on_top = isset($data['on_top']) ? 1 : 0;
+    $item->dark = isset($data['dark']) ? 1 : 0;
+    $item->display_order = $data['display_order'];
+    $item->media = $data['media'];
+
+    $item->save();
+
+    return $item;
   }
 
 }
